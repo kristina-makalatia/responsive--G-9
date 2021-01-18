@@ -1,0 +1,98 @@
+/*Base classes*/
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+.d-flex-justify {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-image-1 {
+	width: 270px;
+}
+.images-wraper {
+	display: flex;
+	/*flex-wrap: wrap;*/
+}
+.box-image-1 img {
+	width: 100%;
+}
+/*Box-#1*/
+.box-wraper {
+	display: flex;
+	justify-content: space-between;
+}
+.box:first-child {
+	width: 570px;
+	height: 320px;
+	background-color: blue;
+}
+.box:last-child {
+	width: 570px;
+	height: 320px;
+	background-color: yellow;
+}
+
+/*Box - #2*/
+.box-wraper2 {
+	display: flex;
+	justify-content: space-between;
+	/*flex-wrap: wrap;*/
+}
+.box1 {
+	max-width: 570px;
+	width: 100%;
+	height: 320px;
+	background-color: grey;
+}
+.box2 {
+	max-width: 570px;
+	width: 100%;
+	height: 320px;
+	background-color: lightblue;
+}
+
+.image {
+	width: 300px;
+}
+.image-box {
+	display: flex;
+	justify-content: space-between;
+}
+.text-box {
+	max-width: 600px;
+	width: 100%;
+}
+
+
+
+/*Header*/
+.bg-header {
+	background-image: url('../img/baner-image.jpg');
+	height: 1080px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*position: relative;*/
+}
+.header-wraper {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	margin-left: 235px;
+}
+.nav-ul {
+	display: flex;
+}
+
+/*.box {
+	width: 444px;
+	height: 468px;
+	box-shadow: 0 15px 15px #000000;
+}
+.box-wraper {
+	display: flex;
+	justify-content: space-between;
+}
